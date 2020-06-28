@@ -5,6 +5,6 @@ keras
 numpy
 h5py
 pillow
-PIL
 scipy
 tensorflow
+pandas 
