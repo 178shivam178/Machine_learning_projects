@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natural Language Processing (NLP) Question and Answer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124253437-1');
+    </script>
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" action="#">
+                        <input type="hidden" name='ip' value="112.79.153.14">
+                        <h2 class="form-title">Question And Answer Demo Using BERT NLP</h2>
+                        <div class="form-group">
+                            <div class="form-group">
+                            <label for="comment">Paragraph <span class="red-star">*</span></label>
+                            <textarea name="Paragraph" class="form-control" rows="7" id="cnotext" required maxlength="1000"></textarea>
+                            <p>*Maximum 1000 characters</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputlg">Question <span class="red-star">*</span></label>
+                         <input name="Question1" class="form-control input-lg" id="question" type="text"required>
+						<div class="alert alert-info answer answer">
+                            {{answer}}		          
+				        </div>                         
+                    </div>
+                    
+                        <div class="form-group" id="submitblock">
+                            <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit"/>
+                            <small class="help-block">
+                            	It might take around 15 seconds to process your request. So kindly be patient.
+                            </small>
+                        </div>                      
+                    </form>
+                    
+                                        <footer>
+                        <p style="color: black; font-size: 15px; text-align: center">Developed by :Shivam Singh </a></p>
+                    </footer>
+                    </div>
+
+            </div>
+            
+         
+        </section>
+    
+    </div>
+
+    <!-- JS -->
+<!--     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script> -->
+</body>
+</html>
