@@ -1,0 +1,6 @@
+pytorch
+flask
+numpy
+pandas 
+transformers
+tokenizers
